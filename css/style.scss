@@ -1,0 +1,162 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:transparent;
+}
+
+html {
+    box-sizing: border-box;
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    line-height:1;
+    font-family: 'Bubbler One', sans-serif;
+
+}
+
+article,aside,details,figcaption,figure,
+footer,header,menu,nav,section {
+    display:block;
+}
+
+
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+///////////////////////////MAIN//////////////////////////////////
+
+$icon-color: tomato;
+
+.section-class {
+    background-color: #f7f7f7;
+    height: 100%;
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Bubbler One', sans-serif;
+
+
+    }
+}
+
+.section-class-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    .icon-wrap{
+        border-radius: 10em;
+        background-color: $icon-color;
+        display: inline-block;
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+        padding-top: 25px;
+        color: #fff;
+    }
+
+    h2 {
+        font-weight: bold;
+        margin-bottom: 0;
+        font-size: 20px;
+        line-height: 40px;
+        font-family: 'Bubbler One', sans-serif;
+
+
+
+    }
+
+    
+    p{
+        color:#6f6f6f;
+    }
+
+}
+
+.item-center {
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+    }
+
+.item-right {
+    .items-text {
+        text-align: right;
+    }
+    .item-icon {
+        padding-left: 20px;
+    }
+    padding-top: 70px;
+}
+
+.item-left {
+    .items-text {
+        text-align: left;
+    }
+    .item-icon {
+        padding-right: 20px;
+    }
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
